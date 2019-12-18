@@ -12,6 +12,8 @@
 		3C03109323A9CE2D00516E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03109123A9CE2D00516E06 /* Main.storyboard */; };
 		3C03109523A9CE2F00516E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C03109423A9CE2F00516E06 /* Assets.xcassets */; };
 		3C03109823A9CE2F00516E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C03109623A9CE2F00516E06 /* LaunchScreen.storyboard */; };
+		3C0310A423A9D1D700516E06 /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3C0310A323A9D1D700516E06 /* data.xml */; };
+		3C0310A623A9D2FB00516E06 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0310A523A9D2FB00516E06 /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3C03109423A9CE2F00516E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C03109723A9CE2F00516E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C03109923A9CE2F00516E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0310A323A9D1D700516E06 /* data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = data.xml; path = "../../../Downloads/Fruit-XML-Parsing-master 2/Fruit XML Parsing 01/data.xml"; sourceTree = "<group>"; };
+		3C0310A523A9D2FB00516E06 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3C03109423A9CE2F00516E06 /* Assets.xcassets */,
 				3C03109623A9CE2F00516E06 /* LaunchScreen.storyboard */,
 				3C03109923A9CE2F00516E06 /* Info.plist */,
+				3C0310A323A9D1D700516E06 /* data.xml */,
+				3C0310A523A9D2FB00516E06 /* data.swift */,
 			);
 			path = 201811837;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C03109823A9CE2F00516E06 /* LaunchScreen.storyboard in Resources */,
+				3C0310A423A9D1D700516E06 /* data.xml in Resources */,
 				3C03109523A9CE2F00516E06 /* Assets.xcassets in Resources */,
 				3C03109323A9CE2D00516E06 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C03109023A9CE2D00516E06 /* ViewController.swift in Sources */,
+				3C0310A623A9D2FB00516E06 /* data.swift in Sources */,
 				3C03108E23A9CE2D00516E06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
